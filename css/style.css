@@ -74,7 +74,6 @@ body {
     -moz-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
 }
-
 #banner {
     background: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -88,7 +87,6 @@ body {
     background: rgba(24, 28, 27, 0.43);
     padding: 250px 0;
 }
-
 #shape{
     position: relative;
 }
