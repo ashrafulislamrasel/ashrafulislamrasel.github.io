@@ -146,7 +146,7 @@ body {
 .top_to span:after {
     position: absolute;
     bottom: 75px;
-    left: 6px;
+    left: 5px;
     content: '';
     background: #000;
     height: 43px;
@@ -156,7 +156,7 @@ body {
 .bottom{
     position: absolute;
     right: 21px;
-    top: 450px;
+    top: 800px;
     z-index: 11111;
     transition: all linear 0.3s;
     -webkit-transition: all linear 0.3s;
@@ -236,7 +236,7 @@ svg {
     display: block;
     font: 10.5em 'Montserrat';
     width: 80%;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 .text-copy {
@@ -273,7 +273,7 @@ svg {
     }
 }
 .banner_text h1 {
-    margin-top: -80px;
+    margin-top: -200px;
     font-size: 30px;
     text-align: center;
     color: #70f298;
@@ -398,41 +398,16 @@ svg {
 	color:#ffffff;
 	color:rgba(0, 0, 0, 0.4);
 }
-#about .button10{
-    padding: 20px 34px;
-    border: 2px solid #000;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-}
-#about .button10 a>span{
-    font-family: 'Montserrat', sans-seri;
-    font-size: 18px;
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #000;
-    font-weight: 800;
-    text-transform: uppercase;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+    background-color: transparent;
+    outline: none;
+    font-weight: 600;
+    border: 2px solid #000;
 }
-#about .button10:hover a>span{
-    color: #fff;
-     border-color: #000; 
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-}
-#about .button10:hover {
-    background: #000;
-    border-color: #8dd1c1;
-    border-color: #000;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 
@@ -639,7 +614,7 @@ svg {
 #accordion .card-block p{
     padding-left: 12px;
     color: #999999;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: none;
     font-family: 'Montserrat', sans-seri;
@@ -680,7 +655,7 @@ svg {
 }
 #testmonial .testmonial_content p{
     font-family: 'Montserrat', sans-seri;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     font-weight: 400;
     cursor: grab;
@@ -783,7 +758,7 @@ svg {
 }
 .contact h4{
     font-family: 'Montserrat', sans-seri;
-    font-size: 14px;
+    font-size: 18px;
     color: #353535;
     font-weight: 500;
     text-transform: capitalize;
@@ -791,7 +766,7 @@ svg {
 }
 .contact h5{
     font-family: 'Montserrat', sans-seri;
-    font-size: 14px;
+    font-size: 18px;
     color: #353535;
     font-weight: 500;
     text-transform: capitalize;
@@ -799,7 +774,7 @@ svg {
 }
 .contact p{
     font-family: 'Montserrat', sans-seri;
-    font-size: 14px;
+    font-size: 18px;
     color: #353535;
     font-weight: 500;
     text-transform: capitalize;
@@ -807,7 +782,7 @@ svg {
 }
 .contact a{
     font-family: 'Montserrat', sans-seri;
-    font-size: 14px;
+    font-size: 18px;
     color: #c00;
     font-weight: 500;
     text-transform: none;

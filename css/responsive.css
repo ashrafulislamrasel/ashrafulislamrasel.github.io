@@ -29,9 +29,7 @@
     .banner_overlay {
         padding: 150px 0;
     }
-    svg {
-        margin: 55px auto;
-    }
+
     .shape_img {
         bottom: -3px;
     }
@@ -44,10 +42,10 @@
     }
 
     .banner_text h1 {
-        font-size: 22px;
+        font-size: 35px;
     }
     .banner_text h1 > a {
-        font-size: 22px;
+        font-size: 35px;
     }
     #testmonial .common_part h3,
     #portfolio .common_part h3,
@@ -66,8 +64,9 @@
         left: 44%;
     }
     #about .skill p {
-        font-size: 14px;
-        padding-top: 50px;
+        font-size: 24px;
+        font-weight: 500;
+        padding-top: 30px;
         padding-bottom: 0;
     }
     #about .skill .my_skill {
@@ -87,10 +86,23 @@
     #about .skillbar-title span,
     #about .skillbar-bar,
     #about .skillbar {
-        height: 12px;
+        height: 25px;
     }
     #about .skillbar-title span {
-        line-height: 12px;
+        line-height: 24px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #about .skill-bar-percent {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        font-size: 22px;
+        font-weight: 800;
+        height: 24px;
+        line-height: 23px;
+        color: #ffffff;
+        color: rgba(0, 0, 0, 0.4);
     }
     #third_part {
         text-align: center;
@@ -100,7 +112,22 @@
     }
     #third_part .third_part_content h4,
     #third_part .third_part_number strong {
-        font-size: 14px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #third_part .third_main {
+        border-left: 2px solid #000;
+        margin-top: 25px;
+    }
+    #third_part .third_part_icon i {
+        font-size: 25px;
+    }
+    .cbp-l-filters-alignRight .cbp-filter-item {
+        font-size: 18px;
+    }
+    #testmonial .common_part p:before {
+        bottom: 0px;
     }
     .counter_content h6 {
         font-size: 12px;
@@ -128,15 +155,8 @@
         padding-top: 30px;
     }
     .bottom {
-    position: absolute;
-    right: 21px;
-    top: 300px;
-    z-index: 11111;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
-}
+        top: 301px;
+    }
     .top_to {
         text-align: center;
         position: fixed;
@@ -198,6 +218,7 @@
     }
     .banner_text h1 {
         font-size: 22px;
+        margin-top: -250px;
     }
     .banner_text h1 > a {
         font-size: 22px;
@@ -229,7 +250,7 @@
         left: 44%;
     }
     #about .skill p {
-        font-size: 12px;
+        font-size: 18px;
         padding-top: 12px;
         padding-bottom: 5px;
     }
@@ -240,7 +261,6 @@
     #about .skillbar-title {
         font-size: 8px;
         font-weight: 400;
-        background: #fff;
         top: -10px;
     }
     #about .button10 {
@@ -259,8 +279,8 @@
     }
     #about .skillbar-title span {
         line-height: 8px;
-        background: #fff;
         color: #000;
+        background: none;
     }
     #about .skill-bar-percent {
         font-size: 8px;
@@ -276,6 +296,10 @@
     #third_part .third_part_content h4,
     #third_part .third_part_number strong {
         font-size: 14px;
+    }
+    #third_part .third_main {
+        border-left: 2px solid #000;
+        margin-top: 18px;
     }
     .counter_content h6 {
         font-size: 12px;
