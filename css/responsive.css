@@ -15,7 +15,7 @@
 
 /* media start of tab/991px */
 
-@media(min-width:768px) and (max-width:991px) {
+@media(min-width:767px) and (max-width:991px) {
     body {
         overflow-x: hidden;
     }
@@ -29,7 +29,9 @@
     .banner_overlay {
         padding: 150px 0;
     }
-
+    svg {
+        margin: 55px auto;
+    }
     .shape_img {
         bottom: -3px;
     }
@@ -43,10 +45,13 @@
 
     .banner_text h1 {
         font-size: 35px;
-        margin-top: -286px;
+        margin-top: -135px;
     }
     .banner_text h1 > a {
         font-size: 35px;
+    }
+    #testmonial .common_part{
+        padding-bottom: 30px;
     }
     #testmonial .common_part h3,
     #portfolio .common_part h3,
@@ -55,20 +60,24 @@
         padding-bottom: 8px;
     }
     #portfolio .common_part p,
-
     #about .common_part p {
-        font-size: 18px;
+        font-size: 26px;
     }
     #testmonial .common_part p:before,
     #portfolio .common_part p:before,
     #about .common_part p:before {
         left: 44%;
     }
-    #about .skill p {
+    #testmonial .common_part p:before{
+        bottom: 0;
+    }
+    #testmonial .testmonial_content p{
         font-size: 24px;
-        font-weight: 500;
+    }
+    #about .skill p {
+        font-size: 26px;
         padding-top: 30px;
-        padding-bottom: 0;
+        padding-bottom: 10px;
     }
     #about .skill .my_skill {
         padding-top: 8px;
@@ -87,51 +96,37 @@
     #about .skillbar-title span,
     #about .skillbar-bar,
     #about .skillbar {
-        height: 25px;
+        height: 30px;
     }
     #about .skillbar-title span {
         line-height: 24px;
         font-size: 20px;
-        font-weight: 500;
     }
     #about .skill-bar-percent {
-        position: absolute;
-        right: 10px;
-        top: 0;
         font-size: 22px;
-        font-weight: 800;
-        height: 24px;
-        line-height: 23px;
-        color: #ffffff;
-        color: rgba(0, 0, 0, 0.4);
+        line-height: 25px;
+        color: #000;
     }
+    
     #third_part {
         text-align: center;
     }
+    #third_part .third_main{
+        margin-top: 20px;
+    }
     #third_part .third_part_icon i {
-        font-size: 20px;
+        font-size: 35px;
+        padding-top: 22px;
     }
     #third_part .third_part_content h4,
     #third_part .third_part_number strong {
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 26px;
     }
-
-    #third_part .third_main {
-        border-left: 2px solid #000;
-        margin-top: 25px;
-    }
-    #third_part .third_part_icon i {
-        font-size: 25px;
-    }
-    .cbp-l-filters-alignRight .cbp-filter-item {
-        font-size: 18px;
-    }
-    #testmonial .common_part p:before {
-        bottom: 0px;
+    .cbp-l-filters-alignRight .cbp-filter-item{
+        font-size: 22px;
     }
     .counter_content h6 {
-        font-size: 12px;
+        font-size: 22px;
         padding-top: 8px;
     }
     .counter_content p i {
@@ -147,219 +142,41 @@
     #Questions .faq_collaps {
         padding-top: 25px;
     }
-    #accordion a span {
-        font-size: 20px;
-    }
-    .contact {
-        padding-bottom: 30px;
-        border-bottom: 1px dashed #000;
-    }
-    .form_head h3 {
-        font-size: 30px;
-        padding-top: 30px;
-    }
-    .bottom {
-        top: 701px;
-    }
-    .top_to {
-        text-align: center;
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        display: none;
-        z-index: 11111;
-        transition: all linear .3s;
-    }
-    .top_to h6 {
-        writing-mode: vertical-rl;
-        font-family: 'Montserrat', sans-seri;
-        font-size: 12px;
-        color: #504a4a;
-    }
-    .top_to > span {
-        position: relative;
-    }
-    .top_to > span:after {
-        position: absolute;
-        height: 80px;
-        width: 1px;
-        background: #000;
-        bottom: -5px;
-        left: -10px;
-        content: '';
-        z-index: 99999999;
-    }
-
-    .contact h4 {
-        font-size: 20px;
-    }
-    .contact h5 {
-        font-size: 20px;
-    }
-    .contact p {
-        font-size: 20px;
-
-    }
-    .contact a {
-        font-size: 20px;
-    }
-    .contact p > i {
-        font-size: 20px;
-    }
-
-}
-
-/* media ends of tab/991px */
-
-/* media start of mobile/767px */
-
-@media(max-width:767px) {
-
-    body {
-        overflow-x: hidden;
-    }
-    .bottom {
-        top: 656px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        border-color: #fff;
-    }
-    #navigation .navbar .navbar-nav .nav-item .nav-link {
-        background: rgba(180, 177, 177, 0.45);
-        border-bottom: 2px solid #fff;
-    }
-    .banner_overlay {
-        padding: 150px 0;
-    }
-    svg {
-        padding-bottom: 10px;
-        margin: 30px auto;
-    }
-    .shape_img {
-        bottom: -1px;
-    }
-    .banner_text h1 {
-        font-size: 22px;
-        margin-top: -408px;
-    }
-    .banner_text h1 > a {
-        font-size: 22px;
-    }
-    #portfolio .common_part p,
-    #about .common_part {
-        margin-bottom: 50px;
-    }
-    #testmonial .common_part h3,
-    #portfolio .common_part h3,
-    #about .common_part h3 {
-        font-size: 30px;
-        padding-bottom: 5px;
-    }
-    #portfolio .common_part p,
-    #about .common_part p {
-        font-size: 14px;
-    }
-    #testmonial .common_part p:before,
-    #portfolio .common_part p:before,
-    #about .common_part p:before {
-        left: 44%;
-        width: 60px;
-    }
-    #testmonial .common_part p:before {
-        bottom: 0;
-    }
-    .map_content h3:before {
-        left: 44%;
-    }
-    #about .skill p {
-        font-size: 18px;
-        padding-top: 12px;
-        padding-bottom: 5px;
-    }
-    #about .skill .my_skill {
-        padding-top: 8px;
-        padding-bottom: 0px;
-    }
-    #about .skillbar-title {
-        font-size: 8px;
-        font-weight: 400;
-        top: -10px;
-    }
-    #about .button10 {
-        padding: 5px 5px;
-    }
-    #about .button10 a > span {
-        font-size: 10px;
-    }
-    #about .skillbar-title span,
-    #about .skillbar-bar,
-    #about .skillbar {
-        height: 8px;
-    }
-    #about .skillbar {
-        background: none;
-    }
-    #about .skillbar-title span {
-        line-height: 8px;
-        color: #000;
-        background: none;
-    }
-    #about .skill-bar-percent {
-        font-size: 8px;
-        line-height: 8px;
-        color: #000;
-    }
-    #third_part {
-        text-align: center;
-    }
-    #third_part .third_part_icon i {
-        font-size: 20px;
-    }
-    #third_part .third_part_content h4,
-    #third_part .third_part_number strong {
-        font-size: 14px;
-    }
-    #third_part .third_main {
-        border-left: 2px solid #000;
-        margin-top: 18px;
-    }
-    .counter_content h6 {
-        font-size: 12px;
-        padding-top: 8px;
-    }
-    .counter_content p i {
-        height: 60px;
-        width: 60px;
-        border: 3px solid;
-        font-size: 20px;
-        line-height: 60px;
-    }
-    .counter_content p:after {
-        left: 79px;
-        top: 33px;
-        width: 78px;
-    }
-
-    #Questions .faq_collaps {
-        padding-top: 25px;
-    }
     #accordion a span{
         font-size: 20px;
     }
     #accordion .card-block p{
-        font-size: 20px;
-    }
-    #testmonial .testmonial_content p{
         font-size: 24px;
-        font-weight: 300;
+    }
+    #map_main .map_content h3:before{
+        left: 44.5%;
     }
     .contact {
         padding-bottom: 30px;
         border-bottom: 1px dashed #000;
     }
+    
+    label,
+    .contact a,
+    .contact p,
+    .contact h5,
+    .contact h4,
+    .contact h2 {
+        font-size: 26px;
+    }
     .form_head h3 {
         font-size: 30px;
         padding-top: 30px;
+    }
+    .btn,
+    .form-control{
+        font-size: 1.5rem;
+    }
+    .copy_right_content h3{
+        font-size: 20px;
+    }
+    .bottom {
+        top: 301px;
     }
     .top_to {
         text-align: center;
@@ -389,35 +206,9 @@
         content: '';
         z-index: 99999999;
     }
-    .footer_shape_img {
-        position: absolute;
-        top: 95px;
-        left: 0;
-        width: 100%;
-        z-index: 10;
-    }
-    .bottom h6:after {
-        left: 5px;
-        height: 43px;
-        width: 2px;
-    }
-    .contact h4 {
-        font-size: 20px;
-    }
-    .contact h5 {
-        font-size: 20px;
-    }
-    .contact p {
-        font-size: 20px;
-
-    }
-    .contact a {
-        font-size: 20px;
-    }
-    .contact p > i {
-        font-size: 20px;
-    }
 }
+
+/* media ends of tab/991px */
 
 
 /* media start of mobile/480px */
@@ -488,61 +279,37 @@
         left: 40%;
         width: 60px;
     }
-
-
-    #testmonial .common_part p:before {
-        bottom: 0;
-        left: 40%;
-    }
-    #testmonial .common_part {
-        padding-bottom: 20px;
-    }
-    #testmonial .testmonial_content p {
-        font-size: 12px;
-    }
-    #map_main .map_content h3 {
-        font-size: 30px;
-    }
-    #map_main .map_content h3:before {
-        left: 40%;
-    }
     #about .skill p {
-        font-size: 12px;
-        padding-top: 12px;
-        padding-bottom: 5px;
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
     #about .skill .my_skill {
         padding-top: 8px;
-        padding-bottom: 0px;
-    }
-    #about .skillbar-title {
-        font-size: 8px;
-        font-weight: 400;
-        background: #fff;
-        top: -10px;
+        padding-bottom: 5px;
     }
     #about .button10 {
-        padding: 5px 5px;
+        padding: 7px 10px;
     }
+    #about .button10 a {
+        padding-left: 7px;
+    }
+
     #about .button10 a > span {
-        font-size: 11px;
+        font-size: 12px;
     }
     #about .skillbar-title span,
     #about .skillbar-bar,
     #about .skillbar {
-        height: 8px;
-    }
-    #about .skillbar {
-        background: none;
+        height: 21px;
     }
     #about .skillbar-title span {
-        line-height: 8px;
-        background: #fff;
-        color: #000;
+        line-height: 17px;
+        font-size: 18px;
     }
     #about .skill-bar-percent {
-        font-size: 8px;
-        line-height: 8px;
+        font-size: 20px;
+        line-height: 19px;
         color: #000;
     }
     #third_part {
@@ -559,6 +326,27 @@
         border-left: 2px solid #000;
         margin-top: 10px;
     }
+    
+    
+    .cbp-l-filters-alignRight .cbp-filter-item{
+        font-size: 18px;
+    }
+    #Questions .faq_collaps {
+        padding-top: 25px;
+    }
+    #accordion a span{
+        font-size: 20px;
+    }
+    #accordion .card-block p{
+        font-size: 24px;
+    }
+    #map_main .map_content h3 {
+        font-size: 30px;
+    }
+    #map_main .map_content h3:before {
+        left: 40%;
+    }
+    
     #Questions {
         padding-top: 0;
     }
@@ -567,12 +355,22 @@
         padding-top: 25px;
     }
     #Questions .faq_collaps h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #accordion .card-block p,
     #accordion a span {
-        font-size: 10px;
+        font-size: 16px;
+    }
+    #testmonial .common_part p:before {
+        bottom: 0;
+        left: 40%;
+    }
+    #testmonial .common_part {
+        padding-bottom: 20px;
+    }
+    #testmonial .testmonial_content p {
+        font-size: 16px;
     }
     #last_part {
         padding-top: 0;
@@ -584,11 +382,12 @@
     .contact h2 {
         font-size: 18px;
     }
+    label,
     .contact a,
     .contact p,
     .contact h5,
     .contact h4 {
-        font-size: 11px;
+        font-size: 16px;
     }
     .contact p > i {
         font-size: 14px;
