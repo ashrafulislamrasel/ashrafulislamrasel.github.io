@@ -452,9 +452,6 @@ svg {
     -moz-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
 }
-#third_part{
-    padding-top: 20px;
-}
 #third_part .third_part_icon i{
     font-size: 30px;
     padding-top: 10px;
@@ -609,7 +606,7 @@ svg {
    margin-top: -4px;
 }
 #Questions .faq_collaps h3{
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     font-family: 'Montserrat', sans-seri;
     font-size: 24px;
     color: #000;
@@ -630,6 +627,7 @@ svg {
 }
 #Questions .card-header{
     background: none;
+    padding-bottom: 20px;
     transition: all linear 0.3s;
 }
 #Questions .card-header .arrows {
@@ -641,10 +639,10 @@ svg {
     transition: all linear 0.3s;
 }
 #accordion a span{
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
     font-family: 'Montserrat', sans-seri;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
 }
 #accordion a i{
     color: #000;
@@ -653,12 +651,14 @@ svg {
     margin-top: 10px;
 }
 #accordion .card-block p{
-    padding-left: 12px;
+    font-family: 'Montserrat', sans-seri;
+    padding-left: 21px;
     color: #999999;
     font-size: 15px;
     font-weight: 400;
     text-transform: none;
-    font-family: 'Montserrat', sans-seri;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -700,7 +700,15 @@ svg {
     color: #000;
     font-weight: 400;
     cursor: grab;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+#testmonial h3.title {
+    font-family: 'Montserrat', sans-seri;
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 15px;
+    text-transform: capitalize;
 }
 #testmonial .slick-dots li{
     display: inline-block;
@@ -726,9 +734,11 @@ svg {
 }
 
 
+/*
 #map_main{
     padding-top: 100px;
 }
+*/
 #map{
     background: url(../images/map.jpg);
     background-position: center center;
@@ -834,9 +844,9 @@ svg {
 }
 
 #last_part{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 20px;
-    background: #fbfbfb;
+    background: #eaeaea;
 }
 .form_head h3{
     font-family: 'Montserrat', sans-seri;

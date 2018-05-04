@@ -82,7 +82,7 @@ $(document).ready(function(){
   dots: true,
   infinite: true,
   speed: 600,
-  autoplay:true,
+//  autoplay:true,
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow:false,
