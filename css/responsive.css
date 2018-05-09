@@ -23,8 +23,9 @@
         border-color: #fff;
     }
     #navigation .navbar .navbar-nav .nav-item .nav-link {
-        background: rgb(255, 249, 249);
-        border-bottom: 2px solid #fff;
+        background: rgba(255, 255, 255, 0.88);
+        border-bottom: 1px solid #000;
+        font-size: 24px;
     }
     .banner_overlay {
         padding: 150px 0;
@@ -37,7 +38,7 @@
     }
     .footer_shape_img {
         position: absolute;
-        top: 100px;
+        top: 90px;
         left: 0;
         width: 100%;
         z-index: 10;
@@ -73,6 +74,8 @@
     }
     #testmonial .testmonial_content p{
         font-size: 24px;
+        line-height: 40px;
+        font-weight: 400;
     }
     #about .skill p {
         font-size: 26px;
@@ -140,10 +143,11 @@
         width: 107px;
     }
     #Questions .faq_collaps {
-        padding-top: 25px;
+        padding-top: 40px;
     }
     #accordion a span{
         font-size: 20px;
+        font-weight: 500;
     }
     #accordion .card-block p{
         font-size: 24px;
@@ -221,8 +225,10 @@
         border-color: #fff;
     }
     #navigation .navbar .navbar-nav .nav-item .nav-link {
-        background: rgba(180, 177, 177, 0.45);
-        border-bottom: 2px solid #fff;
+        background: rgba(255, 255, 255, 0.88);
+        border-bottom: 1px solid #000;
+        font-size: 18px;
+        padding-left: 0;
     }
     .banner_overlay {
         padding: 150px 0;
@@ -304,7 +310,7 @@
         height: 21px;
     }
     #about .skillbar-title span {
-        line-height: 17px;
+        line-height: 20px;
         font-size: 18px;
     }
     #about .skill-bar-percent {
